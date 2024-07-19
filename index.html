@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliance Connections Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="ADIUM.jpeg" alt="Logotipo" class="logo">
+        <h1>Compliance Connections Game</h1>
+        <p class="instructions">Para jogar, clique nas palavras para formar grupos de 3 que compartilhem o mesmo tema de compliance. Desafie-se a acertar o máximo de grupos com o menor número de tentativas!</p>
+        <button id="start-button">Iniciar Jogo</button>
+        <div id="game-board" class="grid-container" style="display: none;"></div>
+        <div id="message" class="message"></div>
+        <div class="stats">
+            <p>Tentativas: <span id="attempts">0</span></p>
+            <p>Acertos: <span id="correct">0</span></p>
+            <p>Erros: <span id="errors">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
